@@ -1,0 +1,23 @@
+{
+  "name": "day2",
+  "version": "1.0.0",
+  "description": "Episode 2nd of Namaster react",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sumitpal0572/NamasteReact.git"
+  },
+  "keywords": [],
+  "author": "Sumit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sumitpal0572/NamasteReact/issues"
+  },
+  "homepage": "https://github.com/Sumitpal0572/NamasteReact#readme",
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  }
+}
