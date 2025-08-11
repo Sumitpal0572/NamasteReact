@@ -15,3 +15,9 @@ parcel-cache is a special folder / directory which is created by parcel automati
 What is `npx` ?
 npx is a command line tool which is basically used to run the npm version packages without installing them globally.
 
+What is difference between `dependencies` vs `devDependencies`
+Dependencies:- These are the package application wihch is need to installed to run the application when it is in production.
+ex:- axios, express , react  
+
+Dev-dependencies:- These are the packages which are need to installed when application is in development not in production.
+ex:- nodemon, webpack,islint
