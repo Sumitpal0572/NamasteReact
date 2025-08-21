@@ -28,7 +28,28 @@ Tree Shaking is a process used in javascript in which it will remove the extra u
 
 What is Hot Module Replacement?
 Hot Module Replacement (HMR) is a feature in modern build tools (like Webpack, Vite, Parcel) that lets you update modules in a running application without reloading the whole page.
+
 - Why it’s useful
-Without HMR: If you make a code change, the browser reloads the page, which resets the application state.
+  Without HMR: If you make a code change, the browser reloads the page, which resets the application state.
 
 - With HMR: Only the changed module (file) is updated in the browser live, and the rest of the app stays the same — state is preserved
+
+<!-- Day 3 -->
+<!-- Laying of foundation -->
+
+What is JSX?
+Jsx is nothing but its a HTML like Syntax or XML Syntax.
+
+React.createElement vs JSX
+React.createElement and JSX basically both are same the facebook developers try to minimize the code and optimize it then they create a JSX in which we can write the code on single line and do the same thing as we do in React.createElement but in optimize way by using ().
+const App = ()=><div>welcome</div>
+const app = () => React.createElement("div",null,"welcome");
+
+Babel & parcel role in JSX
+Babel is a transpiler and complier of javascript code. the browser does not understand the JSX code so babel will convert the code into some browser understable way. Basically it convert the jsx code into plain js.
+
+Functional Components ?
+Functional components is same as the js function which written some JSX element. 
+
+Composing Components ?
+Composing Components is nothing but its a component inside another component. 

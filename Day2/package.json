@@ -2,9 +2,10 @@
   "name": "day2",
   "version": "1.0.0",
   "description": "Episode 2nd of Namaster react",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "jest"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html"
   },
   "repository": {
     "type": "git",
